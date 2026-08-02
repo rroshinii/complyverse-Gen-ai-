@@ -1,176 +1,106 @@
-# ComplyVerse – Autonomous Compliance Intelligence Platform
+ComplyVerse – Autonomous Compliance Intelligence Platform
+Live Demo
 
-## Live Demo
+Deployment: https://complyverse-final-production.up.railway.app/
 
-**Application:** [ComplyVerse Live Demo](https://complyverse-final-production.up.railway.app/?utm_source=chatgpt.com)
+Overview
 
----
+ComplyVerse is an AI-powered enterprise compliance intelligence platform that helps organizations analyze regulatory documents, identify compliance risks, and generate actionable insights through an interactive dashboard.
 
-## Overview
+The platform streamlines compliance workflows by enabling users to upload regulatory documents, perform AI-driven analysis, detect potential risks, and explore compliance information in an intuitive interface.
 
-ComplyVerse is an AI-powered compliance intelligence platform that enables organizations to analyze regulatory documents, identify compliance risks, generate explainable insights, and simulate policy impacts.
-
-Instead of acting as a simple document search engine, ComplyVerse builds a structured understanding of uploaded compliance documents and provides actionable recommendations using AI.
-
----
-
-## Features
-
-* AI-powered compliance document analysis
-* Upload and analyze multiple documents
-* Intelligent compliance risk detection
-* Compliance score generation
-* Explainable AI insights
-* Regulatory knowledge graph
-* Policy impact simulation
-* AI compliance assistant
-* Interactive compliance dashboard
-* Enterprise-ready architecture
-
----
-
-## Supported Document Types
-
-* PDF
-* DOCX
-* TXT
-* CSV
-
----
-
-## Technology Stack
-
-### Frontend
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-
-### Backend
-
-* Node.js
-* Express
-* TypeScript
-
-### AI
-
-* Google Gemini API
-
-### Deployment
-
-* Railway
-
----
-
-## Installation
+Key Features
+AI-powered compliance document analysis
+Upload and analyze enterprise documents
+Automated compliance risk identification
+Regulatory knowledge graph visualization
+Explainable compliance insights
+Compliance dashboard with analytics
+AI-powered compliance assistant
+Policy and regulation exploration
+Multi-document support
+Real-time analysis workflow
+Supported File Formats
+PDF
+DOCX
+TXT
+CSV
+Technology Stack
+Frontend
+React
+TypeScript
+Vite
+Tailwind CSS
+Backend
+Node.js
+Express
+TypeScript
+AI
+Google Gemini API
+Deployment
+Railway
+Installation
 
 Clone the repository.
 
-```bash
 git clone <repository-url>
 cd complyverse
-```
 
 Install dependencies.
 
-```bash
 npm install
-```
+Environment Variables
 
----
+Create a .env file.
 
-## Environment Variables
-
-Create a `.env` file.
-
-```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 APP_URL=http://localhost:3000
-```
-
----
-
-## Running Locally
+Run Locally
 
 Start the development server.
 
-```bash
 npm run dev
-```
 
-Open:
+Open your browser and navigate to:
 
-```
 http://localhost:3000
-```
-
----
-
-## Production Build
-
-Build the application.
-
-```bash
+Build for Production
 npm run build
-```
 
 Run the production server.
 
-```bash
 npm start
-```
-
----
-
-## Workflow
-
-1. Upload one or more compliance documents.
-2. AI extracts relevant regulatory information.
-3. Compliance controls are identified.
-4. Risks and policy gaps are detected.
-5. Explainable insights are generated.
-6. Compliance reports are presented through the dashboard.
-
----
-
-## Project Structure
-
-```
+Usage
+Launch the application.
+Upload one or more compliance documents.
+Start AI-powered analysis.
+Review identified compliance risks and insights.
+Explore the generated knowledge graph.
+Use the AI assistant for compliance-related queries.
+Download or review the generated compliance results.
+Project Structure
 complyverse/
-│
 ├── assets/
 ├── src/
 ├── package.json
 ├── server.ts
 ├── tsconfig.json
 ├── vite.config.ts
-├── README.md
-└── .env
-```
+├── .env
+└── README.md
+Future Enhancements
+OCR support for scanned documents
+Additional regulatory framework integrations
+Real-time compliance monitoring
+Collaboration and team workspaces
+Advanced analytics and reporting
+API integrations with enterprise systems
+Deployment
 
----
+Live Application
 
-## Future Enhancements
+https://complyverse-final-production.up.railway.app/
 
-* OCR support for scanned documents
-* Multi-language compliance analysis
-* Real-time regulation monitoring
-* Automated compliance alerts
-* Team collaboration
-* Versioned compliance history
-* Advanced analytics dashboard
-
----
-
-## Author
-
-**Jaya Nikhilesh R.**
-
-Computer Science and Engineering
-
----
-
-## License
+License
 
 This project is intended for educational, research, and demonstration purposes.
