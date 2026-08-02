@@ -1,0 +1,6 @@
+{
+  "name": "ComplyVerse",
+  "description": "Autonomous compliance intelligence platform with a living 3D knowledge graph, multi-agent reasoning, RAG evidence citations, and impact simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
